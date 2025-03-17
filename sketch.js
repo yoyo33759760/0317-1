@@ -5,7 +5,7 @@ function setup() {
   // 創建 iframe
   let iframe = createDiv('<iframe src="https://www.tku.edu.tw/" width="100%" height="100%" frameborder="0"></iframe>');
   iframe.position(40, 40);
-  iframe.size(windowWidth - 20, windowHeight - 20);
+  iframe.size(windowWidth - 50, windowHeight - 50);
 }
 
 function draw() {
